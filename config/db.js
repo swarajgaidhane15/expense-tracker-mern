@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
+const dotenv = require("dotenv");
 
-const MONGO_URI =
-  "mongodb+srv://wanda:wanda@cluster0.71dw4.mongodb.net/expense?retryWrites=true&w=majority";
+dotenv.config({ path: "./config/config.env" });
+
+const MONGO_URI = process.env.MONGO_URI;
 
 const connectDB = async () => {
   try {
