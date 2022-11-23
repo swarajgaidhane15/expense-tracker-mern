@@ -11,6 +11,6 @@ The app uses MERN stack -
 
 and Context API for state management.
 
-Live <a href="https://obscure-sea-19449.herokuapp.com/">Demo</a> here.
+Live <a href="https://obscure-sea-19449.herokuapp.com/">Demo</a> here. (Since Heroku has closed free deployements 😔, this demo will not give any result.. will add new demo soon)
 
 ##### PS - It does not have user authentication and hence does not have separate data for each user.
